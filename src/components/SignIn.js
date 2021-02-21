@@ -3,6 +3,9 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+const auth = firebase.auth();
+
+
 function SignIn() {
 
     const signInWithGoogle = () => {

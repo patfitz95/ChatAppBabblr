@@ -3,6 +3,8 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+const auth = firebase.auth();
+
 function ChatMessage(props) {
     const { text, uid, photoURL } = props.message;
   
